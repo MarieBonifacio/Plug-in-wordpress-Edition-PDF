@@ -1,0 +1,180 @@
+@font-face{
+    font-family:"lato";
+    src: url("../police/lato/Lato-Medium.ttf") format("truetype");
+}
+
+
+
+.sectionForm{
+    position: relative;
+    /* margin: 1.5em; */
+    max-width: 1140px;
+    /* padding: 4rem 0; */
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px; 
+} 
+
+.sectionForm #formulaireP{
+    margin-top: 24px;
+}
+
+.sectionForm #formulaireO{
+    margin-top: 24px;
+
+}
+
+.sectionForm #formulaireA{
+    margin-top: 24px;
+
+}
+
+
+/* .vc_column-inner{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+} */
+/* 
+div{
+    display: block;
+} */
+
+
+.sectionForm form .formu{
+    width: 100%;
+    line-height: 1.5;
+    margin: 2em;
+
+}
+
+.sectionForm .Formu1.fSubmit{
+    margin-bottom: 0;
+}
+
+.sectionForm .Formu1{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.sectionForm .align_left{
+    text-align: left;
+}
+
+.sectionForm .champForm{
+    position: relative;
+}
+
+
+.sectionForm input .texteinput{
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.sectionForm .texteinput{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    line-height: 2.8rem;
+    height: 2.8rem;
+    padding: 0 0.8rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0 2px transparent, 0 1px 0 rgba(0,0,0,0.08) inset;
+    transition: all 0.3s;
+}
+
+.sectionForm .choix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionForm input[type="radio"]{
+    margin-right: 1em; 
+}
+
+.sectionForm .chx{
+    margin-right: 1em;
+}
+
+.sectionForm .fRadio{
+    /* width:100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1em;
+    /* margin-bottom: 1em;
+    margin-top: 1em; */
+
+}
+
+
+.sectionForm .ttl{
+    margin-top : 1em;
+}
+
+.sectionForm .btnForm{
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.3em;
+    padding: 0.8em 1.8em;
+    background: #EC6448;
+    border-color: transparent;
+    color: #ffffff!important;
+    box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.2); 
+    padding: 0.8em 1.8em;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.sectionForm .btnForm:hover{
+    box-shadow: 0 0.6em 0.8em rgba(0,0,0,0.2);
+}
+
+/* button, input, select{
+    /* vertical-align: top; 
+    text-transform: none;
+    color: inherit;
+    font: inherit;
+    border: none;
+    margin: 0;
+} */
+
+
+@media screen and (max-width: 640px){
+    .sectionForm #fRadio{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
